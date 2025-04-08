@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import axios from "axios";
 
