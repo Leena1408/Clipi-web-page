@@ -38,8 +38,10 @@ export default function Home() {
       setSuccess(true);
       setEmail(""); // Clear email field after success
     } catch (err) {
+      console.error(err);
       setError("Failed to send email. Try again.");
     }
+    
   };
 
   return (
